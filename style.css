@@ -1,0 +1,179 @@
+h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.headerBar {
+  text-align: center;
+}
+
+.mapTableCell {
+  padding: 0px;
+  min-width: 20px;
+  min-height: 10px;
+  max-width: 20px;
+  max-height: 10px;
+  text-align: center;
+}
+
+.mapTableRow {
+
+}
+
+.wall {
+  background: blue;
+}
+
+.dot {
+  color: orange;
+}
+
+.pacLeft {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  background-image: url("Pacman.svg");
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+}
+
+.pacRight {
+  background-image: url("Pacman.svg");
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+}
+
+.pacUp {
+  background-image: url("PacmanUp.svg");
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+}
+
+.pacDown {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  background-image: url("PacmanUp.svg");
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+}
+
+.clyde {
+  background-image: url("Clyde.png");
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+}
+
+.blinky {
+  background-image: url("Blinky.png");
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+}
+
+.pinky {
+  background-image: url("Pinky.png");
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+}
+
+.inky {
+  background-image: url("Inky.png");
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+}
+
+.seperator {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hearts {
+  min-width: 10px;
+  max-width: 10px;
+  color: red;
+}
+
+.skulls {
+  min-width: 10px;
+  max-width: 10px;
+  color: gray;
+}
+
+#outerContainer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#middleContainer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#innerContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  /*whatever width you want*/
+  background: #edeff2;
+  border-radius: 25px;
+}
+
+#mapContainer {
+  background: #edeff2;
+  margin: auto;
+  max-width: 500px;
+  border-radius: 25px;
+}
+
+#winContainer {
+  background: #ccf9b6;
+  border-radius: 25px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+}
+
+#gameOverContainer {
+  background: #ff727e;
+  border-radius: 25px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+}
+
+#mapTable {
+  margin-left:auto;
+  margin-right:auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: black;
+}
+
+#scoreBar {
+  display: table;
+}
+
+#scoreField {
+  display: table-cell;
+  white-space: nowrap;
+}
+
+#livesField {
+  display: table-cell;
+  white-space: nowrap;
+}
+
+#codeLink{
+  text-align: center;
+}
